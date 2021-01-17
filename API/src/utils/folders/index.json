@@ -1,0 +1,6 @@
+{
+  "image/jpeg": "images",
+  "image/png": "images",
+  "image/jpg": "images",
+  "video/mp4": "videos"
+}

@@ -1,0 +1,145 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "plugin:react/recommended",
+    "airbnb"
+  ],
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [
+          ".js",
+          ".jsx",
+          ".tsx",
+          ".ts"
+        ]
+      }
+    }
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react",
+    "@typescript-eslint"
+  ],
+  "rules": {
+    // "react/no-array-index-key": "off",
+    "computed-property-spacing": [
+      "warn",
+      "always"
+    ],
+    "no-restricted-properties": [
+      0,
+      {
+        "object": "Math",
+        "property": "pow",
+        "function": "pow"
+      }
+    ],
+    "no-multi-assign": "off",
+    "react/jsx-one-expression-per-line": [
+      1,
+      {
+        "allow": "literal"
+      }
+    ],
+    "react/require-default-props": "off",
+    "import/prefer-default-export": 0,
+    "semi": "off",
+    "no-extra-semi": "off",
+    "array-bracket-spacing": [
+      1,
+      "always"
+    ],
+    "react/prop-types": [
+      1,
+      {
+        "skipUndeclared": true
+      }
+    ],
+    "react/jsx-indent": [
+      0,
+      "tab"
+    ],
+    "operator-linebreak": [
+      "warn",
+      "after"
+    ],
+    "arrow-body-style": [
+      "warn",
+      "as-needed"
+    ],
+    "react/jsx-tag-spacing": [
+      1,
+      {
+        "closingSlash": "never",
+        "beforeSelfClosing": "always",
+        "afterOpening": "never",
+        "beforeClosing": "allow"
+      }
+    ],
+    "indent": [
+      "warn",
+      2
+    ],
+    "implicit-arrow-linebreak": [
+      "off"
+    ],
+    "import/extensions": [
+      0,
+      {
+        "tsx": "never",
+        "js": "never",
+        "ts": "never"
+      }
+    ],
+    "comma-dangle": [
+      "error",
+      "only-multiline"
+    ],
+    "react/jsx-props-no-spreading": [
+      1,
+      {
+        "html": "ignore",
+        "exceptions": [
+          "Container"
+        ]
+      }
+    ],
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".js",
+          ".jsx",
+          ".tsx"
+        ]
+      }
+    ],
+    "no-unused-vars": [
+      "warn",
+      {
+        "ignoreRestSiblings": true
+      }
+    ],
+    "no-use-before-define": [
+      "warn",
+      {
+        "functions": false,
+        "classes": true,
+        "variables": true
+      }
+    ],
+    "no-console": "off",
+    "no-alert": "off"
+  }
+}
