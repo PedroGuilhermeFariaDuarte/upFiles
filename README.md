@@ -19,6 +19,14 @@ Faça o download deste repositório e acesse pelo terminal as pastas upFiles e o
 
 aguarde a finalização da instalação 😎
 
+### API
+Antes de iniciar a API você precisa configurar uma variavel ambiente! na raiz da pasta **API** crie um arquivo chamado **.env*** e dentro dele escreva ou cole o par chave/valor *API_PORT* (você pode encontrar um exemplo no arquivo .env.example)
+
+```env
+API_PORT = YOUR API PORT
+```
+Tudo certo, agora a API está configurada e pronta para ser iniciada
+
 ### Como Executar
 
 Com o **upFiles** e a **API** instalados, abra um terminal de sua preferência e acesse a(s) pasta(s) **upFiles** e ou **API** e execute o(s) seguinte(s) comando(s):
